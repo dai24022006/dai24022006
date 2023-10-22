@@ -1,10 +1,27 @@
-- 👋 Hi, I’m @dai24022006
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-dai24022006/dai24022006 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#include<iostream>
+#include<iomanip>
+#include<math.h>
+#include<stdio.h>
+#include<conio.h>
+using namespace std;
+int main(){
+	int a;cout<<"so tien gui tinh lai kep ";cin>>a;
+	int b;cout<<"so tien gui lien tuc sau moi chu ki ";cin>>b;
+	float r;cout<<"lai xuat ";cin>>r;
+	int n;cout<<"trong chu ki ";cin>>n;
+	if(a==0,b!=0){
+		float s=(b/(r/100))*(pow(1+r/100,n)-1)*(r/100+1);
+		cout<<"tong so tien sau gui "<<fixed<<setprecision(10)<<s<<endl;
+	}
+	else if(b==0,a!=0){
+			float s=a*pow(1+r/100,n);
+	cout<<"tong so tien sau gui "<<fixed<<setprecision(10)<<s;
+	}
+	else if(a!=0,b!=0){
+		cout<<"loi...";
+	}
+	else if(a==0,b==0){
+		cout<<"loi...";
+	}
+	getch();
+}
